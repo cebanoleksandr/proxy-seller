@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/proxy-seller/static/css/main.64da7b5d.css",
+    "main.js": "/proxy-seller/static/js/main.1d110924.js",
+    "static/js/453.7ab4befc.chunk.js": "/proxy-seller/static/js/453.7ab4befc.chunk.js",
+    "index.html": "/proxy-seller/index.html",
+    "main.64da7b5d.css.map": "/proxy-seller/static/css/main.64da7b5d.css.map",
+    "main.1d110924.js.map": "/proxy-seller/static/js/main.1d110924.js.map",
+    "453.7ab4befc.chunk.js.map": "/proxy-seller/static/js/453.7ab4befc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64da7b5d.css",
+    "static/js/main.1d110924.js"
+  ]
+}
