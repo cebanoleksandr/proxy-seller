@@ -1,0 +1,26 @@
+.post-card {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 24px;
+  background-color: #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.heart {
+  cursor: pointer;
+}
+
+.red {
+  color: var(--danger-color);
+}
+
+.white {
+  color: var(--light-color);
+}

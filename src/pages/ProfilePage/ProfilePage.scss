@@ -1,0 +1,67 @@
+.board {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-image: url('https://as2.ftcdn.net/v2/jpg/01/69/42/21/1000_F_169422198_WyszrbX91bkJLXfj1bzUoW2mLNlKDrdZ.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-ava {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.prodile-data {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.prodile-data__main {
+  width: 50%;
+  padding: 100px 24px 24px;
+}
+
+.prodile-data__detail {
+  width: 50%;
+}
+
+.info {
+  font-size: 24px;
+  text-align: right;
+}
+
+@media (max-width: 650px) {
+  .prodile-data {
+    display: block;
+  }
+  
+  .prodile-data__main {
+    width: 100%;
+  }
+  
+  .prodile-data__detail {
+    width: 100%;
+  }
+
+  .info {
+    text-align: left;
+  }
+}
+
+.email {
+  color: var(--danger-color);
+}
+
+.phone {
+  color: var(--success-color);
+}
+
+.web {
+  color: var(--primary-color);
+}

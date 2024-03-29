@@ -1,0 +1,39 @@
+.filters-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-filter {
+  width: 50%;
+}
+
+.filters {
+  padding: 0 24px 24px;
+  width: 50%;
+}
+
+@media (max-width: 900px) {
+  .filters-container {
+    display: block;
+  }
+  .search-filter {
+    width: 100%;
+  }
+  .filters {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.users-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+@media (max-width: 650px) {
+  .users-container {
+    justify-content: center;
+  }
+}

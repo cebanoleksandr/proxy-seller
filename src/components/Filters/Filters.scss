@@ -1,0 +1,24 @@
+.filter-block {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .filter-block {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+}
+
+.asc {
+  color: var(--primary-color);
+}
+
+.desc {
+  color: var(--success-color);
+}
+
+.alt-v {
+  color: var(--danger-color);
+}
